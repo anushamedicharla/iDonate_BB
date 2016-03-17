@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/blood" />
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:layout_height="wrap_content" />-->
+    <EditText
+        android:id="@+id/etName"
+        android:background="@drawable/custom"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="username"
+        android:layout_height="wrap_content" />-->
+    <EditText
+        android:id="@+id/etUsername"
+        android:background="@drawable/custom"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="User Name"/>
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:layout_height="wrap_content" />-->
+    <EditText
+        android:id="@+id/etPassword"
+        android:background="@drawable/custom"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:text="BloodGroup"
+        android:layout_height="wrap_content" />-->
+    <EditText
+        android:id="@+id/etBloodGroup"
+        android:background="@drawable/custom"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_height="wrap_content"
+        android:hint="Blood Group"/>
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+    <Button
+        android:id="@+id/bviewAll"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="View"/>
+
+
+</LinearLayout>
+
