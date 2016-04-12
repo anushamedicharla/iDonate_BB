@@ -87,7 +87,7 @@
 
        </Button>
            <Button
-               android:id="@+id/bRegister"
+               android:id="@+id/bHospitalsNearMe"
                android:text = "Hospitals Near me"
                android:textSize="25dp"
                android:background="@drawable/custom"
