@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/currentLocation"
+        android:title="@string/current_location"
+        app:showAsAction="always"
+        android:onClick="showCurrentLocation"
+        android:icon="@drawable/currloc"/>
+
+</menu>
